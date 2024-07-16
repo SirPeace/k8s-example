@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  host: mongo-service
+  port: "27017"
+  username: mongo
+  database: db
